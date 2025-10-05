@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./styles/register_style.css">
+</head>
+<body>
+    <main>
+        <section id="registration-block">
+            <h1>Регистрация</h1>
+            <span> Уже есть аккаунт? <a href="">Войти</a></span>
+            <div id="my_company">
+                <h2>Моя компания</h2>
+                <form action="/test">
+                    <div>
+                        <span>
+                            <input type="text" name="name" placeholder="Имя" id="name">
+                            <input type="text" name="surname" id="surname" placeholder="Фамилия">
+                        </span>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+
+                    <button type="button" id="button">Зарегистрироваться</button>
+                    <div id="agreement">
+                        <input type="checkbox" name="agreement" id="agreement">
+                        <label for="agreement">Я прочитал и принимаю</label>
+                        <a href="/test">Условия использования</a>
+                        </div>
+                </form>
+            </div>
+        </section>
+         
+    </main>
+</body>
+</html>
