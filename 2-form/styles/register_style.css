@@ -2,12 +2,12 @@
 @font-face {
    font-family: "Open Sans";
    src:
-   url("/fonts/OpenSans-VariableFont_wdth,wght.ttf"),
+url("/2-form/fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
 @font-face {
    font-family: "Open Sans Italic";
-   src: url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+   src: url("/2-form/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
 }
       
 
@@ -17,7 +17,7 @@ body {
 
 h1 {
    font-size: 36px;;
-   font-family: 'Open Sans' Bold;
+   font-family: "Open Sans";
 }
 
 span {
@@ -31,8 +31,8 @@ a {
 
 input {
    font-size: 16px;
-   font-family: "Open Sans Italic" ;
-   color: #F5F5F5;
+   font-family: "Open Sans Italic";
+   color: #999999;
    background-color: #F5F5F5;
    border: none;
 }
@@ -45,5 +45,5 @@ button {
 }
 
 label {
-   color: #666666/":22";
+   color: #666666;
 }
