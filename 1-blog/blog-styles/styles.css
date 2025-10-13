@@ -8,6 +8,10 @@
     src: url(/fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
 
 #body {
     height: 100vh;
@@ -16,26 +20,35 @@
     color: #FFFFFF;
     font-family: "Roboto Normal";
     font-weight: 400;
+    padding: 72px 162px;
+    box-sizing: border-box;
 }
 
 #search {
     background-color: rgba(31, 41, 55, 0.6);
+    width: 224px;
+    height: 40px;
+    border-radius: 100px;
+    padding: 10px;
 }
 
 #ivent_time {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);          
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;         
 }
 
 #dev_name {
     font-size: 16px;
     line-height: 28px;
+    display: block;
 }
 
 #dev {
     font-size: 14px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.6);
+    display: block;
 }
 
 #rights_info {
@@ -46,19 +59,63 @@
 
 nav {
     font-size: 16px;
+    margin-bottom: 80px;
 } 
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav form {
+    display: inline;
+    width: 224px;
+    height: 40px;
+    border-radius: 100%;
+}
 
 h1 {
     font-size: 24px;
     line-height: 38px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.head_of_main {
+    text-align: center;
 }
 
 article {
     font-size: 20px;
     line-height: 32px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 section {
     font-size: 16px;
     line-height: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.dev_info img {
+    display: inline;
+}
+
+.dev_text{
+    display: inline;
+}
+
+.main_img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 67px;
+}
+
+footer {
+    text-align: center;
 }
