@@ -1,0 +1,49 @@
+
+@font-face {
+   font-family: "Open Sans";
+   src:
+url("/2-form/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+   font-family: "Open Sans Italic";
+   src: url("/2-form/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+}
+      
+
+body {
+   font-family: "Open Sans";
+}
+
+h1 {
+   font-size: 36px;;
+   font-family: "Open Sans";
+}
+
+span {
+   font-size: 18px;;
+   color: #666666;
+}
+
+a {
+   color: #089FE0;
+}
+
+input {
+   font-size: 16px;
+   font-family: "Open Sans Italic";
+   color: #999999;
+   background-color: #F5F5F5;
+   border: none;
+}
+
+button {
+   font-size: 18px;
+   color: #FFFFFF; 
+   background-color: #089FE0;
+   border: none;
+}
+
+label {
+   color: #666666;
+}
